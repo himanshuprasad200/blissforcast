@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  font-family: "Roboto", Arial !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url("https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcm0yOTYtbmluZy0wOC5qcGc.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+@media (max-width:450px) {
+  body {
+    background-image: url("https://i.pinimg.com/236x/ec/9f/76/ec9f761152d520ee20bff8afc25fceb6.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+    height: 100vh;
+
+  }
+}
